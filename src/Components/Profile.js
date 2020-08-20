@@ -35,43 +35,63 @@ return (
             </div>
         </div>
         <div className='profile-page-content2'>
-            <h2 id='profile-h1'>Experience</h2>
+            <h1 id='profile-h2'>Experience</h1>
             <hr className='title-divider'/>
-            <div className='profile-education'>
-                <div className='profile-education-content'>
-                    <div className='profile-education-content-header'>
-                        <h3>Education</h3>
-                        <div>Clemson University</div>
-                        <div>August 2015 - May 2019</div>
-                    </div>
-                    <div className='profile-education-content-info'>
-                        <h5>Bachelor's Degree - Computer Science (B.S.)</h5>
-                    </div>
+            <h3 id='experience-h3'>Education</h3>
+            <div className='experience-content-container'>
+                <div id='experience-header'>
+                    <h5>Clemson University</h5>
+                    <div>Aug 2015 - May 2019</div>
+                </div>
+                <div id='experience-description'>
+                    <h5>Computer Science (B.S.)</h5>
+                    <h5>Selected Coursework</h5>
+                    <ul>
+                        <li>Algorithms and Data Structures</li>
+                        <li>Software Development</li>
+                        <li>Software Engineering</li>
+                        <li>Networks and Network Programming</li>
+                    </ul>
                 </div>
             </div>
-            <hr className='content-divider'/>
-            <div className='profile-career'>
-                <div className='profile-career-content'>
-                    <div className='profile-career-content-header'>
-                        <h3>Career</h3>
-                        <div>Ally Financial</div>
-                        <div>July 2019 - Current</div>
-                    </div>
-                    <div className='profile-career-content-info'>
-                        <h5>Fulltime - Software Developer</h5>
-                    </div>
+            <hr/>
+
+            <h3 id='experience-h3'>Career</h3>
+            <div className='experience-content-container'>
+                <div id='experience-header'>
+                    <h5>Ally Financial</h5>
+                    <div>July 2019 - Current</div>
+                </div>
+                <div id='experience-description'>
+                    <h5>Software Developer</h5>
+                    <h5>Job Description:</h5>
+                    <ul>
+                        <li>Researching, designing, implementing, and managing .NET applications written in C#</li>
+                        <li>C# applications paired with Pegasystems (RPA tool) for data scraping on Ally customer deposits accounts</li>
+                        <li>Working with additional technologies such as Python, Selenium - Flask - Jinja, GoLang, JavaScript, SQL, Postman, JIRA, Bitbucket</li>
+                        <li>Using Python with Flask and SQLite for application logs parsing and analytics dashboard. Paired with HTML5, Javascript, and Jinja for 
+                            the analytics dashboard</li>
+                        <li>Worked with GoLang briefly to rewrite our application logging service</li>
+                        <li>Write scripts using various scripting languages such as Powershell and Batch</li>
+                        <li>Using JIRA, Bitbucket, and Jenkins for the agile software development process, and DevOps</li>
+                    </ul>
                 </div>
             </div>
-            <hr className='content-divider-career'/>
-            <div className='profile-career'>
-                <div className='profile-career-content'>
-                    <div className='profile-career-content-header'>
-                        <div>eSecurity Solutions</div>
-                        <div>May 2016 - Aug 2018</div>
-                    </div>
-                    <div className='profile-career-content-info2'>
-                        <h5>Fulltime - Automation Developer</h5>
-                    </div>
+            <hr/>
+            <div className='experience-content-container'>
+                <div id='experience-header'>
+                    <h5>eSecurity Solutions</h5>
+                    <div>Sep 2014 - Aug 2018</div>
+                </div>
+                <div id='experience-description'>
+                    <h5>Automation Engineer</h5>
+                    <h5>Job Description:</h5>
+                    <ul>
+                        <li>ConnectWise Automate Development. Maintaining and building Monitors/Alerts and Scripts to provide a proactive automated response to 
+                            endpoints over the network using ConnectWise</li>
+                        <li>Worked with Powershell, Cisco network switches, and virtualization</li>
+                        <li>Oversee monthly/quarterly performance of computer systems</li>
+                    </ul>
                 </div>
             </div>
         </div>

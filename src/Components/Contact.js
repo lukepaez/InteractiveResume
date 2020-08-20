@@ -25,8 +25,8 @@ return (
             </div>
             <div className='contact-github'>
                 <FontAwesomeIcon icon={faCodeBranch}/>
-                <a href='https://www.github.com' target='_blank' rel='noopener noreferrer'>
-                    mygithublink
+                <a href='https://github.com/lukepaez/InteractiveResume.git' target='_blank' rel='noopener noreferrer'>
+                    github-projectlink
                 </a>
             </div>
         </div>
