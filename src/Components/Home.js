@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style/Home.css';
 import Nav from './Nav';
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -15,7 +16,10 @@ return (
             <div>Luke Anthony Paez</div>
             <hr/> 
             <div className='btn'>
-                <Button variant='dark' href='/Profile'>Learn More</Button>
+            <Link to='/Profile'>
+                <Button variant='dark'>Learn More</Button>
+            </Link>
+
             </div>  
         </div>
 
