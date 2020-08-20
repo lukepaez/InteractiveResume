@@ -1,6 +1,4 @@
 [build]
 base = "InteractiveResume/"
-
 publish = "InteractiveResume/build"
-
 command = "npm run build"
