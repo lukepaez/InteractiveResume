@@ -28,14 +28,8 @@
   width: 425px;
 }
 
-.btn {
-  margin-top: -15px;
-  text-align: center;
-}
-
-.btn > Button {
-  background-color: white;
-  color: black;
+Link {
+  color: red;
 }
 
 
