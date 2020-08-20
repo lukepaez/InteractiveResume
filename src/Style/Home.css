@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.home-container {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.home-content {
+  min-height: calc(100vh - 150px);
+  background-color: slategray;
+}
+
+.container {
+  padding-top: 168px;
+}
+
+.container > div {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container > hr {
+  background-color: white;
+  width: 425px;
+}
+
+.btn {
+  margin-top: -15px;
+  text-align: center;
+}
+
+.btn > Button {
+  background-color: white;
+  color: black;
+}
+
+
+

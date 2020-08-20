@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.profile-content {
+    min-height: calc(100vh - 150px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-divider {
+    width: 45%;
+}
+
+.content-divider {
+    width: 52%;
+}
+
+.content-divider-career {
+    width: 52%;
+}
+.profile-page-content {
+    width: 100%;
+    height: 485px;
+    background-color: whitesmoke;
+}
+
+.profile-page-content > h3 {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-aboutme-container {
+    display: flex;
+    justify-content: center;
+    height: 335px;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 25px;
+}
+
+.profile-details {
+    width: 250px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.profile-details > p {
+    text-align: left;
+}
+
+.profile-about {
+    width: 375px;
+    text-align: left;
+}
+
+.profile-about > p {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.profile-page-content2 {
+    width: 100%;
+    height: 485px;
+    background-color: beige;
+}
+
+#profile-h1 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+.profile-education {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-education-content {
+    display: flex;
+    width: 750px;
+}
+
+.profile-education-content-header {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-education-content-header > h3 {
+    text-align: left;
+}
+
+.profile-education-content-info {
+    flex-grow: 2;
+}
+
+.profile-education-content-info > h5 {
+    padding-top: 70px;
+}
+
+
+.profile-career {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-career-content {
+    display: flex;
+    width: 750px;
+}
+
+.profile-career-content-header {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-career-content-header > h3 {
+    text-align: left;
+}
+
+.profile-career-content-info {
+    flex-grow: 3;
+    margin-left: 20px;
+}
+
+.profile-career-content-info > h5 {
+    padding-top: 70px;
+}
+
+.profile-career-content-info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 3;
+    margin-left: 20px;
+}
+
+.profile-career-content-info2 > h5 {
+    padding-top: 30px;
+}

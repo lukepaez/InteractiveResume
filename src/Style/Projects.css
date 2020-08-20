@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.projects-container {
+    text-align: center;
+    background-color: white;
+}
+
+.projects-content {
+    min-height: calc(100vh - 150px);
+}
+.project-strip-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-strip-header {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header-content {
+    width: 500px;
+    padding-top: 5%;
+}
+
+.header-content > p {
+    margin-top: 25px;
+}
+
+.project-strip {
+    background-color: lightgreen;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.project-strip2 {
+    background-color: rgba(255, 0, 0, 0.6);
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.project-strip3 {
+    background-color: slategray;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.project-strip4 {
+    background-color: navajowhite;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.project-strip-content > h2 {
+    margin-top: 25px;
+}
+
+.project-strip-content > img {
+    height: 250px;
+    width: 500px;
+}

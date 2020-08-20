@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.contact-content {
+    min-height: calc(100vh - 150px);
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+#top {
+    width: 75%;
+    margin-top: 115px;
+}
+
+.contact-container {
+    width: 70%;
+    height: 150px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-container > div {
+    width: 100%;
+}
+
+#btm {
+    width: 75%;
+}
+
+.contact-email > span {
+    color: white;
+    margin-left: 5%;
+}
+
+.contact-linkedin > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.contact-linkedin > a:hover {
+    color: black;
+}
+
+.contact-github > a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.contact-github > a:hover {
+    color: black;
+}

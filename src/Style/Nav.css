@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.nav-container {
+    height: 75px;
+    background-color: white;
+}
+
+.nav-bar {
+    height: 100%;
+    display: flex;
+}
+
+.logo-div {
+    height: 100%;
+    width: 100px;
+    text-align: center;
+}
+
+.logo-div > img {
+    height: 100%;
+    width: 100%;
+}
+
+.temp-div {
+    height: 100%;
+    flex-grow: 3;
+}
+.nav-list {
+    height: 100%;
+    flex-grow: 5;
+}
+
+.nav-list > ul {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul > a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+}
+
+ul > a:hover {
+    color: rgba(0, 0, 0, .5);
+    text-decoration: none;
+}

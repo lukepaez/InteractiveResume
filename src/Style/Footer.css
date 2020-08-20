@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.footer-ctnr {
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
