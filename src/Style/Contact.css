@@ -16,11 +16,12 @@ h1 {
 }
 
 .contact-container {
-    width: 70%;
+    width: 75%;
     height: 150px;
-    margin-left: 25%;
+    margin-left: 12.5%;
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid red;
 }
 
 .contact-container > div {
@@ -54,4 +55,44 @@ h1 {
 
 .contact-github > a:hover {
     color: black;
+}
+
+@media only screen and (max-width: 450px) {
+    .contact-container {
+        width: 100%;
+        margin-left: 0%;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid red;
+    }
+    
+    #btm {
+        width: 75%;
+    }
+    
+    .contact-email > span {
+        color: white;
+        margin-left: 5%;
+    }
+    
+    .contact-linkedin > a {
+        color: white;
+        text-decoration: none;
+        margin-left: 5%;
+    }
+    
+    .contact-linkedin > a:hover {
+        color: black;
+    }
+    
+    .contact-github > a {
+        color: white;
+        text-decoration: none;
+        margin-left: 5%;
+    }
+    
+    .contact-github > a:hover {
+        color: black;
+    }
 }

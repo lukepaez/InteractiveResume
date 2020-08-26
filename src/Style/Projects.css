@@ -21,8 +21,9 @@
 }
 
 .header-content {
-    width: 500px;
+    width: 70%;
     padding-top: 5%;
+    border: 1px solid black;
 }
 
 .header-content > p {
@@ -72,4 +73,25 @@
 .project-strip-content > img {
     height: 250px;
     width: 500px;
+}
+
+@media only screen and (max-width: 750px) {
+    .project-strip-content > img {
+        height: 250px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .project-strip-content > img {
+        height: 200px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .project-strip-content > img {
+        height: 200px;
+        width: 100%;
+    }
 }
