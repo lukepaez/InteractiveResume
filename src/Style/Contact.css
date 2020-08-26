@@ -21,7 +21,6 @@ h1 {
     margin-left: 12.5%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
 }
 
 .contact-container > div {
@@ -64,7 +63,6 @@ h1 {
         height: 150px;
         display: flex;
         flex-wrap: wrap;
-        border: 1px solid red;
     }
     
     #btm {
